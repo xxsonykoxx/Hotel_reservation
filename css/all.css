@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -44,30 +45,6 @@ table {
   border-spacing: 0;
 }
 
-<<<<<<< HEAD
-header {
-  width: 100%;
-  height: 596px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-shadow: 0px 1px 10px 5px rgba(0, 0, 0, 0.1);
-          box-shadow: 0px 1px 10px 5px rgba(0, 0, 0, 0.1);
-}
-
-.info__header--left {
-  -webkit-box-flex: 7;
-      -ms-flex: 7;
-          flex: 7;
-  background-image: url(/image/photo-1515511856280-7b23f68d2996.jpeg);
-  background-size: cover;
-}
-
-.info__header--right {
-  -webkit-box-flex: 3;
-      -ms-flex: 3;
-          flex: 3;
-=======
 * {
   border: 1px solid black;
 }
@@ -98,12 +75,149 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
->>>>>>> 13bc3d12eae90be53e9a30b7a73d8b4964fe5f71
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-<<<<<<< HEAD
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content_index-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content_index-right .content_index-right-rooms {
+  width: 305px;
+  height: 405px;
+  background: white;
+  font-size: 14px;
+  padding-left: 34px;
+}
+
+.content_index-right .content_index-right-rooms img {
+  position: relative;
+  top: 10px;
+  opacity: 0.8;
+}
+
+.content_index-right .content_index-right-rooms ul {
+  padding-top: 37px;
+}
+
+.content_index-right .content_index-right-rooms li {
+  position: relative;
+  padding-bottom: 37px;
+  letter-spacing: 1.5px;
+}
+
+.content_index-right .content_index-right-rooms li::before {
+  content: '';
+  width: 14px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+  left: -21px;
+  top: 9px;
+  border-radius: 25%;
+}
+
+.content_index-right .content_index-right-rooms a {
+  text-decoration: none;
+  color: black;
+  line-height: 20px;
+}
+
+.content_index-left-bottom .num {
+  font-size: 66px;
+  color: white;
+  line-height: 98px;
+  position: relative;
+}
+
+.content_index-left-bottom .num::after {
+  content: '';
+  background-image: url(/image/index_icon/border.svg);
+  background-repeat: repeat;
+  background-size: cover;
+  opacity: 0.5;
+  width: 90px;
+  height: 20px;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+}
+
+.content_index-left-bottom p {
+  font-size: 24px;
+  color: white;
+  letter-spacing: 2.5px;
+  line-height: 36px;
+}
+
+.content_index-right-information {
+  position: relative;
+  bottom: -30px;
+  right: 0;
+}
+
+.content_index-right-information img {
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+}
+
+.content_index-right-information li {
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 13px;
+}
+
+.content_index-right-information li:first-child {
+  padding-bottom: 50px;
+}
+
+.content_index-right-information ul {
+  position: relative;
+  bottom: -30px;
+  left: 0;
+  padding-left: 20px;
+}
+
+header {
+  width: 100%;
+  height: 596px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 1px 10px 5px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 1px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.info__header--left {
+  -webkit-box-flex: 7;
+      -ms-flex: 7;
+          flex: 7;
+  background-image: url(/image/photo-1515511856280-7b23f68d2996.jpeg);
+  background-size: cover;
+}
+
+.info__header--right {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .info__header--right .info__header--right-top {
@@ -240,7 +354,7 @@ header img {
 }
 
 .room--facilities {
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -272,117 +386,117 @@ header img {
   letter-spacing: 1.25px;
   display: block;
   font-weight: 300;
-=======
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
-.content_index-right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+.info__container--right {
+  margin-left: 100px;
 }
 
-.content_index-right .content_index-right-rooms {
-  width: 305px;
-  height: 405px;
-  background: white;
-  font-size: 14px;
-  padding-left: 34px;
+/* 最外層 */
+.ui-datepicker-wrapper {
+  padding: 10px;
+  background-color: #f7f7f7;
+  width: 383px;
+  font-size: 16px;
+  color: #666666;
+  -webkit-box-shadow: 2px 2px 8px 2px rgba(128, 128, 128, 0.3);
+          box-shadow: 2px 2px 8px 2px rgba(128, 128, 128, 0.3);
 }
 
-.content_index-right .content_index-right-rooms img {
-  position: relative;
-  top: 10px;
-  opacity: 0.8;
+/*頭部 */
+.ui-datepicker-wrapper .ui-datepicker-header {
+  padding: 0 20px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #f7f7f7;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 1.88px;
 }
 
-.content_index-right .content_index-right-rooms ul {
-  padding-top: 37px;
-}
-
-.content_index-right .content_index-right-rooms li {
-  position: relative;
-  padding-bottom: 37px;
-  letter-spacing: 1.5px;
-}
-
-.content_index-right .content_index-right-rooms li::before {
-  content: '';
-  width: 14px;
-  height: 2px;
-  background-color: #000;
-  position: absolute;
-  left: -21px;
-  top: 9px;
-  border-radius: 25%;
-}
-
-.content_index-right .content_index-right-rooms a {
-  text-decoration: none;
-  color: black;
-  line-height: 20px;
-}
-
-.content_index-left-bottom .num {
-  font-size: 66px;
-  color: white;
-  line-height: 98px;
-  position: relative;
-}
-
-.content_index-left-bottom .num::after {
-  content: '';
-  background-image: url(/image/index_icon/border.svg);
-  background-repeat: repeat;
-  background-size: cover;
-  opacity: 0.5;
-  width: 90px;
-  height: 20px;
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-}
-
-.content_index-left-bottom p {
-  font-size: 24px;
-  color: white;
-  letter-spacing: 2.5px;
-  line-height: 36px;
-}
-
-.content_index-right-information {
-  position: relative;
-  bottom: -30px;
-  right: 0;
-}
-
-.content_index-right-information img {
+/* 兩個按鈕*/
+.ui-datepicker-wrapper .ui-datepicker-btn {
+  font-family: serif;
+  font-size: 20px;
   width: 20px;
-  height: 20px;
-  padding-right: 10px;
+  height: 60px;
+  line-height: 60px;
+  color: #000;
+  font-weight: 300;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
 }
 
-.content_index-right-information li {
-  color: white;
+.ui-datepicker-wrapper .ui-datepicker-prev-btn {
+  float: left;
+}
+
+.ui-datepicker-wrapper .ui-datepicker-next-btn {
+  float: right;
+}
+
+/* 身體 */
+.ui-datepicker-wrapper .ui-datepicker-body table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f7f7f7;
+}
+
+/* 表頭跟本體 */
+.ui-datepicker-wrapper .ui-datepicker-body th,
+.ui-datepicker-wrapper .ui-datepicker-body td {
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.ui-datepicker-wrapper .ui-datepicker-body th {
+  font-size: 18px;
+  color: #6d7278;
+  letter-spacing: 1.88px;
+  height: 60px;
+  line-height: 60px;
+  font-weight: 300;
+}
+
+/* 表格部分 */
+.ui-datepicker-wrapper .ui-datepicker-body td {
   font-size: 14px;
-  line-height: 20px;
-  margin-bottom: 13px;
+  font-weight: 300;
+  width: 14%;
+  color: #6d7278;
+  cursor: pointer;
 }
 
-.content_index-right-information li:first-child {
-  padding-bottom: 50px;
-}
-
-.content_index-right-information ul {
+.booking_room {
+  margin-top: 30px;
   position: relative;
-  bottom: -30px;
-  left: 0;
-  padding-left: 20px;
->>>>>>> 13bc3d12eae90be53e9a30b7a73d8b4964fe5f71
+}
+
+.booking_room img {
+  position: absolute;
+  width: 118px;
+  top: 10px;
+  left: 6px;
+  z-index: -1;
+}
+
+.booking_btn {
+  width: 118px;
+  height: 53px;
+  background-color: #575757;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 1.67px;
+  text-align: center;
+  font-weight: 200;
+  border: none;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.booking_btn:focus {
+  outline: none;
 }

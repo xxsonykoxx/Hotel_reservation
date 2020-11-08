@@ -16,25 +16,25 @@
 </head>
 
 <body class="body_index">
-  <div class="content_index">
+  <div class="content_index background_image">
     <div class="content_index-left">
       <div class="content_index-left-top">
         <div class="logo"><img src="/image/index_icon/logo_white.svg" alt=""></div>
       </div>
       <div class="content_index-left-bottom">
-        <div class="num">04</div>
-        <p>Deluxe Double Room</p>
+        <div class="num">06</div>
+        <p id="room_type">Deluxe Twin Room</p>
       </div>
     </div>
     <div class="content_index-right">
       <div class="content_index-right-rooms">
         <ul>
-          <li><a href="#">Single Room</a></li>
-          <li><a href="#">Deluxe Single Room</a></li>
-          <li><a href="#">Double Room</a></li>
-          <li><a href="#">Deluxe Double Room</a></li>
-          <li><a href="#">Twin Room</a></li>
-          <li><a href="#">Deluxe Twin Room</a></li>
+          <li><a href="#" class='sr' id="single_room" data-id='01'>Single Room</a></li>
+          <li><a href="#" class='dsr' id="deluxeS_room" >Deluxe Single Room</a></li>
+          <li><a href="#" class='dr' id="double_room">Double Room</a></li>
+          <li><a href="#" class='ddr' id="deluxeD_room">Deluxe Double Room</a></li>
+          <li><a href="#" class='tr' id="twin_room" >Twin Room</a></li>
+          <li><a href="#" class='dtr' id="deluxeT_room" >Deluxe Twin Room</a></li>
         </ul>
         <img src="/image/index_icon/border.svg" alt="">
       </div>
@@ -49,6 +49,7 @@
       </div>
     </div>
   </div>
+  <script src="JS/index.js"></script>
 </body>
 
 </html>

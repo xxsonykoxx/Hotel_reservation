@@ -19,7 +19,7 @@
                 </g>
                 <rect id="Rectangle" stroke="#000000" x="14.5" y="10.5" width="149" height="42"></rect>
                 <text id="WhiteSpace" font-family="NotoSansCJKtc-Medium, Noto Sans CJK TC" font-size="18" font-weight="400" line-spacing="44" letter-spacing="1.8800001" fill="#000000">
-                    <tspan x="31" y="29">WhiteSpace</tspan>
+                    <tspan x="31" y="39">WhiteSpace</tspan>
                 </text>
             </g>
         </g>
